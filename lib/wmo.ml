@@ -1,2 +1,2 @@
-module Cumulus = Cumulus
-module Stratus = Stratus
+module Cumulus = Cumulus.M
+module Stratus = Stratus.M
