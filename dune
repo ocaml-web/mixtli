@@ -1,3 +1,4 @@
 (executable
   (name cloud)
-  (public_name nube))
+  (public_name nube)
+  (libraries wmo))

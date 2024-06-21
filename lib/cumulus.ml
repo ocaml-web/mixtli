@@ -1,0 +1,1 @@
+let nimbus = "Cumulonimbus (Cb)"
