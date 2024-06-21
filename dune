@@ -1,0 +1,3 @@
+(executable
+  (name cloud)
+  (public_name nube))
