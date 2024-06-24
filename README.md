@@ -34,3 +34,17 @@ Check it works: `dune exec nube`
   * `wmo.ml` implementation of the `Wmo` module
 * `nube` executable command name
 
+## Task #2: Library Folder
+
+**Tutorial Section**: [Libraries](https://ocaml.org/docs/libraries-dune#libraries)
+
+Create and populate folder `lib` with file files:
+* `lib/dune` module `Wmo`
+* `lib/cumulus.mli` and `lib/cumulus.ml`, module `Wmo.Cumulus`
+* `lib/status.mli` and `lib/stratus.ml`, module `Wmo.Stratus`
+
+Delete file `wmo.ml`. Add dependency from `cloud` to `Wmo` in `dune`. Running
+`dune exec nube` should produce the same output.
+
+**Takeaways**: Dune no longer needs a source code file to build module `Wmo`
+
