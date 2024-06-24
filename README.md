@@ -16,3 +16,21 @@ git commit -m "my-task-1"
 And then move on to the next task. You can compare your work on `task-X` with
 the proposed solution by doing `git diff sol-X`.
 
+## Task #1: Project Initialization
+
+**Tutorial section**: [Minimum Project
+Setup](https://ocaml.org/docs/libraries-dune#minimum-project-setup)
+
+Create files `dune-project`, `dune`, `wmo.ml` and `cloud.ml`.
+
+Check it works: `dune exec nube`
+
+**Takeaways**: Names
+
+* `mixtli` is the folder or git repo name, it is irrelevant to OCaml and Dune
+* `wmo-clouds`: package name of the project, used by Opam and Nix
+* OCaml source files
+  * `cloud.ml` implementation of the `Cloud` module (referred as `cloud` in `dune`)
+  * `wmo.ml` implementation of the `Wmo` module
+* `nube` executable command name
+
