@@ -69,3 +69,13 @@ the same output.
 **Takeaways**: There are no `dune` files in folders `lib/cumulus` and
 `lib/status`, yet `Wmo.Cumulus` and `Wmo.Stratus` modules are built.
 
+## Task #5: Remove Duplicated Interfaces
+
+**Tutorial Section**: _[GitHub PR #2537](https://github.com/ocaml/ocaml.org/pull/2537)_
+
+Remove files `lib/cumulus/m.mli` `lib/stratus/m.mli`. Have that interface
+defined in module `Wmo`. Running `dune exec nube` should produce the same
+output.
+
+**Takeaways**: Hack the library's wrapper module when Dune's default isn't what
+you need
