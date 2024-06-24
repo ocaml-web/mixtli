@@ -58,3 +58,14 @@ produce the same output.
 **Takeaways**: In the previous step, everything behaved as if this file existed.
 Running `dune exec nube` should produce the same output.
 
+## Task #4: Subdirectory Modules
+
+**Tutorial Section**: [Include Subdirectories](https://ocaml.org/docs/libraries-dune#include-subdirectories)
+
+Use `include_subdirs qualified` in `lib/dune` to create `Cumulus` and `Stratus`
+modules from folders rather than files. Running `dune exec nube` should produce
+the same output.
+
+**Takeaways**: There are no `dune` files in folders `lib/cumulus` and
+`lib/status`, yet `Wmo.Cumulus` and `Wmo.Stratus` modules are built.
+
