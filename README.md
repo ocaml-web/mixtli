@@ -48,3 +48,13 @@ Delete file `wmo.ml`. Add dependency from `cloud` to `Wmo` in `dune`. Running
 
 **Takeaways**: Dune no longer needs a source code file to build module `Wmo`
 
+## Task #3: Wrapper Module
+
+**Tutorial Section**: [Library Wrapper Modules](https://ocaml.org/docs/libraries-dune#library-wrapper-modules)
+
+Create file `lib/wmo.ml` with _ad-hoc_ contents. Running `dune exec nube` should
+produce the same output.
+
+**Takeaways**: In the previous step, everything behaved as if this file existed.
+Running `dune exec nube` should produce the same output.
+
