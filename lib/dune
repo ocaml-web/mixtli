@@ -1,1 +1,1 @@
-(library (name wmo))
+(library (name wmo) (wrapped false) (modules cumulus stratus))
